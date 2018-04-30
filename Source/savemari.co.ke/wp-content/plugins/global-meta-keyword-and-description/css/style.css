@@ -1,0 +1,20 @@
+.GMKD-container
+{
+    border:solid 1px #CCC;
+    padding:5px;
+    margin-top:20px;
+    width:100%;
+}
+.GMKD-label
+{
+    font-weight:bold;
+}
+.GMKD-help
+{
+    font-size:12px;
+}
+.GMKD-fields
+{
+    font-size:13px;
+    width:534px;
+}

@@ -1,0 +1,2 @@
+[24-Aug-2016 03:09:44 America/Chicago] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/savemar/public_html/savemari.co.za/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[01-Jan-2017 01:24:50 Europe/London] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/savemar/public_html/savemari.co.za/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

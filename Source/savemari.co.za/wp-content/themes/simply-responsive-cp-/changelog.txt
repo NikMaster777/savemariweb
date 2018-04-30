@@ -1,0 +1,96 @@
+Version 1.3.4.2
+===========
+Fixed: Minor css issues.
+Fixed: Missing Translations.
+Fixed: Popular Tab not being found on page onwards.
+Updated: Font awesome files.
+
+
+Version 1.3.4.1
+===========
+Fixed: Minor css issues.
+
+
+Version 1.3.4
+===========
+Compatibility with CP 3.4
+Fixed: Select box dropdown on mobile devices.
+Moved: Translation files into a new unique simply responsive .pot file
+Moved: Featured slider code into the new content-slider-ad_listing.php file
+Moved: Featured ads loop code into new includes/ftm-views.php file
+New: Created a new translation file (Languages/themes - simply-responsve.pot) file for language translation for child theme.
+Added: Compatibility with Top Location Search plugin.
+
+
+Version 1.3.3.1
+===========
+Fixed: Password Strength Meter not working on login page.
+
+Version 1.3.3
+===========
+Compatibility with CP 3.3.3
+Fixed: Small floating line on Password Reset page.
+Fixed: New wording translation omissions.
+Fixed: Thank you page redirection file name error.
+Fixed: CSS issue with Avatar in Welcome Box on mobile devices.
+Fixed: Featured tab now continues sorting on page 2+
+
+Adjustment: To register and login pages.
+Added: Expandable/Collapsable responsive Menu on mobile devices.
+Added: No display of Refine Search when there are no ads or only 1 in a category.
+Added: Editable function to control display of featured slider (will still duplicate ads as before if set to display less than 4 ads, but no longer displays non-featured ads).
+Added: Featured (Sticky) Ads on top of category and search results. Limited to the latest 3 ads, but adaptable with some instruction. Please note this feature is not retrospective. It will only apply to all featured ads from the day on installation.
+Added: Function compatibility with the "Critic" plugin.
+Added: Link for those that have the "Add to Favorites" plugin in the ad loop.
+
+
+
+Version 1.3.2
+===========
+Compatibility with CP 3.3.2
+Fixed: Several CSS modifications for better display.
+Fixed: Google map control panel display.
+Fixed: Caption code to allow users to change the default image title to their own caption for the first image.
+Fixed: No-image dimensions on Featured slider.
+Fixed: Media settings in the admin backend.
+Fixed: Added extra translation text to the .pot file to include additional new wording.
+Fixed: Position of sold ribbon on single ad page when uploaded image is not square and in IE11.
+Fixed: Removed the word STEP from the add new form progress images, to avoid translation issues.
+Moved: Google fonts to the wrapper.php to avoid @import in the style.css file.
+
+Added: Sold and Sale Pending ribbons to the featured slider (makes sense to right).
+Added: Featured slider to display featured ads which are relevant to the category being viewed on the category pages.
+Added: Back button on single ad and no ads found pages, which will take user back to the last page they came from.
+Added: Option to include Responsive Video Embedding for YouTube and Vimeo (see README.txt for instructions).
+Added: Price Negotiable option (see README.txt for instructions).
+Added: Option to login or register on the same page.
+Added: Preloader graphic to image uploads, so users can gauge upload progress.
+Added: "Thank you for your order" message to the order summary page.
+Added: Moved ad images to appear before item details on the single ad page.
+Added: Redirection to a "Thank you for your email enquiry" page (see README.txt for instructions).
+Added: Further style compatibility with AFCP plugin.
+
+
+
+Version 1.3.1
+===========
+Fixed: Removal of testing menu.js script which caused slow page load.
+Fixed: Related ads call up code adjustment on single ad page.
+Fixed: Adjustment to Dropdown style on Profile page.
+Fixed: Previous button on featured slider was not working due to it being hidden behind the slider container.
+Fixed: Turned some of the generic icons into sprites to aide with faster download.
+Fixed: Added translation text to the .pot file to include the additional new wording eg: "email to a friend".
+
+Added: Previous and Next links within the same category on the single ad page.
+Added: Made the Purchase a Membership Package more prominent in users dashboard and profile pages.
+Added: Images to RSS feeds in Firefox.
+Added: Auto-Fill Data into sidebar Contact Form
+Added: Style compatibility with CP Rate plugin
+Added: Style compatibility with SM Sticky Featured Widget
+Added: Style compatibility with Contact Form 7 plugin
+
+
+
+Version 1.3
+===========
+-Initial release

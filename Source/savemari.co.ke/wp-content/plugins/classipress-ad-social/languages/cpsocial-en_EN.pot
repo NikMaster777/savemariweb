@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassiPress Ad Social\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-30 18:21+0200\n"
+"PO-Revision-Date: 2015-05-30 18:21+0200\n"
+"Last-Translator: Roi Dayan <roi.dayan@gmail.com>\n"
+"Language-Team: Roi Dayan <roi.dayan@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../cp-ad-social.php:43 ../cp-ad-social.php:97
+msgid "Google Plus"
+msgstr ""
+
+#: ../cp-ad-social.php:46 ../cp-ad-social.php:104
+msgid "Pinterest"
+msgstr ""
+
+#: ../cp-ad-social.php:49
+msgid "Phone"
+msgstr ""
+
+#: ../cp-ad-social.php:69
+msgid "Click to show"
+msgstr ""
+
+#: ../cp-ad-social.php:83
+msgid "Twitter"
+msgstr ""
+
+#: ../cp-ad-social.php:90
+msgid "Facebook"
+msgstr ""
+
+#: ../cp-ad-social.php:132
+msgid "Contact Information"
+msgstr ""

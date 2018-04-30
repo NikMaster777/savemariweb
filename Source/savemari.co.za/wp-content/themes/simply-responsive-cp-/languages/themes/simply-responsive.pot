@@ -1,0 +1,643 @@
+# Translation of FabTalent Media
+# Copyright (C) 2014 FabTalent Media
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simply Responsive 1.3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-27 20:53+0100\n"
+"PO-Revision-Date: 2014-12-02 19:14-0000\n"
+"Last-Translator: Talent\n"
+"Language-Team: AppThemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: content-ad_listing.php:27 single-ad_listing.php:59
+#: single-ad_listing.php:258 tpl-ads-home.php:47
+msgid "Featured"
+msgstr ""
+
+#: content-ad_listing.php:30 content-slider-ad_listing.php:27
+#: single-ad_listing.php:62 single-ad_listing.php:261 cat-featured.php:68
+msgid "Sold"
+msgstr ""
+
+#: content-ad_listing.php:33 content-slider-ad_listing.php:30
+#: single-ad_listing.php:65 single-ad_listing.php:264 cat-featured.php:71
+msgid "Sale Pending"
+msgstr ""
+
+#: content-ad_listing.php:23
+msgid "Negotiable"
+msgstr ""
+
+#: single-ad_listing.php:45
+msgid "Price Negotiable"
+msgstr ""
+
+#: single-ad_listing.php:89
+msgid "Item Details:"
+msgstr ""
+
+#: single-ad_listing.php:96
+msgid "This item has been sold"
+msgstr ""
+
+#: single-ad_listing.php:99
+msgid "Sold, pending pick up"
+msgstr ""
+
+#: single-ad_listing.php:106
+msgid "Expires:"
+msgstr ""
+
+#: single-ad_listing.php:111
+msgid "Thought you might like this:"
+msgstr ""
+
+#: single-ad_listing.php:111
+msgid "Email to a friend"
+msgstr ""
+
+#: single-ad_listing.php:122
+msgid "Item listed by:"
+msgstr ""
+
+#: single-ad_listing.php:123
+msgid "in"
+msgstr ""
+
+#: functions.php:362 single-ad_listing.php:80
+msgid "&larr; Go Back"
+msgstr ""
+
+#: single-ad_listing.php:138
+msgid "YouTube Video:"
+msgstr ""
+
+#: single-ad_listing.php:147
+msgid "Vimeo Video:"
+msgstr ""
+
+#: single-ad_listing.php:153
+msgid "Item Description:"
+msgstr ""
+
+#: single-ad_listing.php:215
+msgid "Related Ads"
+msgstr ""
+
+#: single-ad_listing.php:218
+msgid "Some other ads listed under "
+msgstr ""
+
+#: single-ad_listing.php:218
+msgid "that you might be interested in..."
+msgstr ""
+
+#: single-ad_listing.php:220
+msgid "Some other "
+msgstr ""
+
+#: single-ad_listing.php:220
+msgid " ads that you might be interested in..."
+msgstr ""
+
+#: taxonomy-ad_cat.php:35
+msgid "Total Listings for"
+msgstr ""
+
+#: author.php:32
+msgid "About %s"
+msgstr ""
+
+#: author.php:41 sidebar-user.php:55 sidebar-ad.php:99
+msgid "Member Since:"
+msgstr ""
+
+#: author.php:64 author.php:75
+msgid "Ads"
+msgstr ""
+
+#: author.php:75
+msgid "Latest items listed"
+msgstr ""
+
+#: author.php:90
+msgid "Recent blog posts"
+msgstr ""
+
+#: author.php:66 author.php:90
+msgid "Posts"
+msgstr ""
+
+#: cat-featured.php:48 featured.php:42
+msgid "Featured Listings"
+msgstr ""
+
+#: functions.php:72
+msgid "Hide Notice"
+msgstr ""
+
+#: functions.php:333
+msgid "Sorry, there are no other related ads in this category at this time."
+msgstr ""
+
+#: functions.php:360
+msgid "Sorry, no listings were found."
+msgstr ""
+
+#: functions.php:376
+msgid "Places an ad space in the sidebar for 300x250 ads"
+msgstr ""
+
+#: functions.php:378
+msgid "CP 300x250 Ads"
+msgstr ""
+
+#: functions.php:385 functions.php:441
+msgid "Sponsored Ads"
+msgstr ""
+
+#: functions.php:445
+msgid "Title:"
+msgstr ""
+
+#: functions.php:450
+msgid "Ads:"
+msgstr ""
+
+#: functions.php:452
+msgid "Enter one ad entry per line in the following format:"
+msgstr ""
+
+#: functions.php:453
+msgid "URL|Image URL|Image Alt Text|rel"
+msgstr ""
+
+#: functions.php:454
+msgid ""
+"<strong>Note:</strong> You must hit your &quot;enter/return&quot; key after "
+"each ad entry otherwise the ads will not display properly."
+msgstr ""
+
+#: functions.php:459
+msgid "Open ads in a new window?"
+msgstr ""
+
+#: functions.php:827
+msgid "There are "
+msgstr ""
+
+#: functions.php:827
+msgid " ads listed under "
+msgstr ""
+
+#: functions.php:829
+msgid "Sorry, there is only "
+msgstr ""
+
+#: functions.php:829
+msgid " ad listed under "
+msgstr ""
+
+#: functions.php:829
+msgid " at this time."
+msgstr ""
+
+#: functions.php:839
+msgid "&larr; PREV AD"
+msgstr ""
+
+#: functions.php:846
+msgid "NEXT AD &rarr;"
+msgstr ""
+
+#: functions.php:988
+msgid "Edit Ad"
+msgstr ""
+
+#: functions.php:1001
+msgid "Delete Ad"
+msgstr ""
+
+#: functions.php:1009
+msgid "Pause Ad"
+msgstr ""
+
+#: functions.php:1017
+msgid "Restart ad"
+msgstr ""
+
+#: functions.php:1028
+msgid "Mark Sold"
+msgstr ""
+
+#: functions.php:1034
+msgid "Unmark Sold"
+msgstr ""
+
+#: functions.php:1046
+msgid "Mark Pending"
+msgstr ""
+
+#: functions.php:1052
+msgid "Unmark Pending"
+msgstr ""
+
+#: functions.php:1061
+msgid "Relist Ad"
+msgstr ""
+
+#: functions.php:1071
+msgid "Pay now"
+msgstr ""
+
+#: functions.php:1077
+msgid "Reset Gateway"
+msgstr ""
+
+#: header.php:22
+msgid "RSS Feed"
+msgstr ""
+
+#: header.php:25 author.php:43 sidebar-user.php:77
+msgid "Facebook"
+msgstr ""
+
+#: header.php:29 author.php:44 sidebar-user.php:78
+msgid "Twitter"
+msgstr ""
+
+#: header.php:79
+msgid "Menu "
+msgstr ""
+
+#: header.php:62 header.php:82
+msgid "Post an Ad"
+msgstr ""
+
+#: includes/ftm-views.php:7 tpl-dashboard.php:26
+msgid "Dashboard"
+msgstr ""
+
+#: includes/ftm-views.php:66
+msgid "Ad has been marked as pending pick up."
+msgstr ""
+
+#: includes/ftm-views.php:68
+msgid "Ad has been unmarked as pending pick up."
+msgstr ""
+
+#: includes/ftm-views.php:116
+msgid "Random Ads"
+msgstr ""
+
+#: includes/ftm-views.php:118
+msgid "Popular Ads"
+msgstr ""
+
+#: includes/ftm-views.php:120
+msgid "Featured Ads"
+msgstr ""
+
+#: includes/ftm-views.php:119
+msgid "Latest Ads"
+msgstr ""
+
+#: includes/sidebar-contact.php:23
+msgid "Your message has been sent!"
+msgstr ""
+
+#: includes/sidebar-contact.php:36
+msgid ""
+"To inquire about this ad listing, complete the form below to send a message "
+"to the ad poster."
+msgstr ""
+
+#: includes/sidebar-contact.php:40
+msgid "Name:"
+msgstr ""
+
+#: includes/sidebar-contact.php:52
+msgid "Subject:"
+msgstr ""
+
+#: includes/sidebar-contact.php:53
+msgid "Re:"
+msgstr ""
+
+#: includes/sidebar-contact.php:58
+msgid "Message:"
+msgstr ""
+
+#: includes/sidebar-contact.php:44
+msgid "Sum of"
+msgstr ""
+
+#: includes/sidebar-contact.php:80
+msgid "Send Inquiry"
+msgstr ""
+
+#: order-summary.php:27
+msgid "Order Summary"
+msgstr ""
+
+#: order-summary.php:35
+msgid "Thank you!"
+msgstr ""
+
+#: order-summary.php:36
+msgid "Your ad listing has been submitted for review."
+msgstr ""
+
+#: order-summary.php:37
+msgid "You can check the status by viewing your "
+msgstr ""
+
+#: order-summary.php:37
+msgid "dashboard."
+msgstr ""
+
+#: search.php:11
+msgid "What are you looking for?"
+msgstr ""
+
+#: search.php:31
+msgid "Search for '%1$s' returned %2$s results"
+msgstr ""
+
+#: sidebar-ad.php:31
+msgid "Map"
+msgstr ""
+
+#: sidebar-ad.php:32
+msgid "Contact"
+msgstr ""
+
+#: sidebar-ad.php:33
+msgid "Poster"
+msgstr ""
+
+#: sidebar-ad.php:69
+msgid "You must be logged in to inquire about this ad."
+msgstr ""
+
+#: sidebar-ad.php:87
+msgid "Information about the ad poster"
+msgstr ""
+
+#: sidebar-ad.php:95
+msgid "Listed by:"
+msgstr ""
+
+#: sidebar-ad.php:113
+msgid "Other items listed by"
+msgstr ""
+
+#: sidebar-ad.php:131
+msgid "No other ads by this poster found."
+msgstr ""
+
+#: sidebar-ad.php:141
+msgid "Latest items listed by"
+msgstr ""
+
+#: sidebar-user.php:22
+msgid "User Options"
+msgstr ""
+
+#: sidebar-user.php:29
+msgid "My Dashboard"
+msgstr ""
+
+#: sidebar-user.php:30
+msgid "Edit Profile"
+msgstr ""
+
+#: sidebar-user.php:31
+msgid "WordPress Admin"
+msgstr ""
+
+#: sidebar-user.php:32
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-user.php:49
+msgid "Account Information"
+msgstr ""
+
+#: sidebar-user.php:56
+msgid "Last Login:"
+msgstr ""
+
+#: sidebar-user.php:63
+msgid "Your membership pack '%1$s' expired on %2$s."
+msgstr ""
+
+#: sidebar-user.php:64
+msgid "Renew Your Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:66
+msgid "Membership Pack:"
+msgstr ""
+
+#: sidebar-user.php:67
+msgid "Membership Expires:"
+msgstr ""
+
+#: sidebar-user.php:68
+msgid "Renew or Extend Your Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:70
+msgid "Purchase a Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:94
+msgid "Account Statistics"
+msgstr ""
+
+#: sidebar-user.php:119
+msgid "Live Listings:"
+msgstr ""
+
+#: sidebar-user.php:120
+msgid "Pending Listings:"
+msgstr ""
+
+#: sidebar-user.php:121
+msgid "Offline Listings:"
+msgstr ""
+
+#: sidebar-user.php:122
+msgid "Total Listings:"
+msgstr ""
+
+#: tpl-ads-home.php:30 tpl-categories.php:26
+msgid "Ad Categories"
+msgstr ""
+
+#: tpl-ads-home.php:50
+msgid "Latest"
+msgstr ""
+
+#: tpl-ads-home.php:51
+msgid "Popular"
+msgstr ""
+
+#: tpl-ads-home.php:52
+msgid "Random"
+msgstr ""
+
+#: tpl-ads-home.php:81 tpl-ads-home.php:101 tpl-ads-home.php:129
+#: tpl-ads-home.php:152 tpl-ads-home.php:175
+msgid "View More Ads"
+msgstr ""
+
+#: tpl-ads-home.php:196 tpl-categories.php:53
+msgid "View All"
+msgstr ""
+
+#: tpl-login.php:33 tpl-registration.php:99
+msgid "Already Registered?"
+msgstr ""
+
+#: tpl-login.php:85 tpl-registration.php:32
+msgid "Not Registered Yet?"
+msgstr ""
+
+#: tpl-login.php:86 tpl-registration.php:33
+msgid "Register"
+msgstr ""
+
+#: tpl-login.php:34 tpl-registration.php:100
+msgid "Login"
+msgstr ""
+
+#: sidebar.php:28
+msgid "Join Now!"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Welcome back,"
+msgstr ""
+
+#: sidebar.php:37
+msgid "You last logged in at:"
+msgstr ""
+
+#: sidebar.php:38
+msgid "Manage your ads or edit your profile from your personalized dashboard."
+msgstr ""
+
+#: sidebar.php:42
+msgid "Manage Ads"
+msgstr ""
+
+#: sidebar.php:92
+msgid "Sub Categories"
+msgstr ""
+
+#: sidebar.php:129
+msgid "Meta"
+msgstr ""
+
+#: tpl-login.php:41 tpl-login.php:95 tpl-registration.php:42
+#: tpl-registration.php:107
+msgid "Username:"
+msgstr ""
+
+#: tpl-login.php:100 tpl-registration.php:47 includes/sidebar-contact.php:46
+msgid "Email:"
+msgstr ""
+
+#: tpl-login.php:46 tpl-login.php:106 tpl-registration.php:53
+#: tpl-registration.php:112
+msgid "Password:"
+msgstr ""
+
+#: tpl-login.php:111 tpl-registration.php:59
+msgid "Password Again:"
+msgstr ""
+
+#: tpl-login.php:116 tpl-registration.php:63
+msgid "Strength indicator"
+msgstr ""
+
+#: tpl-login.php:126 tpl-registration.php:73
+msgid "Create Account"
+msgstr ""
+
+#: tpl-login.php:140 tpl-registration.php:87
+msgid ""
+"** User registration is currently disabled. Please contact the site "
+"administrator. **"
+msgstr ""
+
+#: tpl-login.php:36 tpl-registration.php:102
+msgid "Please complete the fields below to login to your account."
+msgstr ""
+
+#: tpl-login.php:88 tpl-registration.php:35
+msgid "Complete the fields below to create your free account. Your login details will be emailed to you for confirmation so make sure to use a valid email address. Once registration is complete, you will be able to submit your ads."
+msgstr ""
+
+#: tpl-login.php:56 tpl-registration.php:122
+msgid "Remember me"
+msgstr ""
+
+#: tpl-login.php:60 tpl-registration.php:126
+msgid "Login &raquo;"
+msgstr ""
+
+#: tpl-login.php:66 tpl-registration.php:132
+msgid "Password Lost and Found"
+msgstr ""
+
+#: tpl-login.php:66 tpl-registration.php:132
+msgid "Lost your password?"
+msgstr ""
+
+#: tpl-dashboard.php:39
+msgid ""
+"Below you will find a listing of all your classified ads. Click on one of "
+"the options to perform a specific task. If you have any questions, please "
+"contact the site administrator."
+msgstr ""
+
+#: tpl-dashboard.php:45
+msgid "Title"
+msgstr ""
+
+#: tpl-dashboard.php:47
+msgid "Views"
+msgstr ""
+
+#: tpl-dashboard.php:49
+msgid "Status"
+msgstr ""
+
+#: tpl-dashboard.php:50
+msgid "Options"
+msgstr ""
+
+#: tpl-dashboard.php:70
+msgid "You currently have no classified ads."
+msgstr ""
+
+#: wrapper.php:63
+msgid "Debug Mode On"
+msgstr ""

@@ -1,0 +1,139 @@
+.header_menu_res .tinynav2 {
+	display:none !important;
+}
+.header_menu_res #adv_cities {
+	margin:-2px 0 0 0; 
+	padding:0 0 8px; 
+	position:absolute; 
+	background:#fff; 
+	z-index:998; 
+}
+
+.header_menu_res #adv_cities ul {
+	width:730px;
+	padding-left:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom-width:1px;
+	border:1px solid #eee; 
+	border-top:none;
+	-khtml-border-radius: 0 6px 6px 6px; 
+	-moz-border-radius: 0 6px 6px 6px; 
+	-webkit-border-radius: 0 6px 6px 6px; 
+	border-radius: 0 6px 6px 6px; 
+	-moz-box-shadow: 1px 1px 5px #b7b7b7; 
+	-webkit-box-shadow: 1px 1px 5px #b7b7b7; 
+	box-shadow: 1px 1px 5px #b7b7b7;
+}
+
+.header_menu_res li a.city_highlight { 
+	color:#555555; 
+	background:#fff;
+	text-shadow:0 1px 0 #fff; 
+	z-index:999; 
+	-khtml-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border-radius: 3px;
+}
+
+.header_menu_res #adv_cities ul li {
+	background:#DFDFDF url(images/gray-grad.png) repeat-x scroll left top; 
+	text-transform:uppercase; 
+	font-weight:bold; 
+	color:#545454; 
+	float:left; 
+	margin:5px; 
+	padding:5px 10px; 
+	-khtml-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border-radius: 3px;
+	width:150px;
+}
+
+.header_menu_res #adv_cities ul li  a{
+    margin: 0;
+	font-size:12px;
+    text-decoration: none;
+	display:inline;
+	padding:0;
+	background:none;
+}
+
+.header_menu_res #adv_cities ul li  a:hover {
+	text-decoration:underline;
+}
+
+#cboxWrapper { font-family:Arial, Helvetica, sans-serif; color:#4F4F4F; font-size:12px; }
+
+#cu_popup_form label { line-height: 30px; min-width: 65px; float: left; font-weight: bold;}
+			
+#cu_popup_form {background-color: #FFFFFF; border: none; text-align: left; z-index: 1001;}
+
+#cu_popup_form  li {
+	text-align:center;
+}
+
+#cu_popup_form  li a.selectBox {
+	text-align:left;
+}
+
+#cu_popup_trigger { display:none; }
+
+#cu_popup_form .selectBox-dropdown .selectBox-label {
+	width:100% !important;
+}
+
+.widget_cu_select_widget .shadowblock > div {
+	text-align:center;
+}
+.widget_cu_select_widget .shadowblock .selectBox-dropdown {
+	text-align:left;
+	
+
+@media screen and (max-width: 1040px) {
+	.header_menu_res #adv_cities ul {
+		width:550px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.header_menu_res #adv_cities ul {
+		width:370px;
+	}
+}
+@media screen and (max-width: 600px) {
+	ul#city_nav {
+		display:block;
+		width:375px;
+		float:none;
+	}
+	ul#city_nav  li.mega {
+		width:375px;
+		float:none;
+		clear:both;
+	}
+	.header_menu_res #adv_cities ul {
+		width:370px;
+	}
+	.header_menu_res #adv_cities ul {
+		left:auto;
+		display:none;
+	}
+	.header_menu_res .obtn {
+		margin: -65px 0 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	ul#city_nav, ul#city_nav  li.mega {
+		width:255px;
+	}
+	.header_menu_res #adv_cities ul {
+		width:250px;
+	}
+	.header_menu_res #adv_cities ul li {
+		width:210px;
+	}
+	
+}

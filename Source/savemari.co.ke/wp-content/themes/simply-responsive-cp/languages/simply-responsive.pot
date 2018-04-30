@@ -1,0 +1,671 @@
+# Translation of FabTalent Media
+# Copyright (C) 2014 FabTalent Media
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simply Responsive 1.3.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-27 20:53+0100\n"
+"PO-Revision-Date: 2015-09-15 154:14-0000\n"
+"Last-Translator: Talent\n"
+"Language-Team: AppThemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: content-ad_listing.php:27 single-ad_listing.php:59
+#: single-ad_listing.php:258 tpl-ads-home.php:53
+msgid "Featured"
+msgstr ""
+
+#: content-ad_listing.php:30 content-slider-ad_listing.php:31
+#: single-ad_listing.php:62 single-ad_listing.php:261
+msgid "Sold"
+msgstr ""
+
+#: content-ad_listing.php:33 content-slider-ad_listing.php:35
+#: single-ad_listing.php:65 single-ad_listing.php:264
+msgid "Sale Pending"
+msgstr ""
+
+#: content-ad_listing.php:23
+msgid "Negotiable"
+msgstr ""
+
+
+
+#: single-ad_listing.php:45
+msgid "Price Negotiable"
+msgstr ""
+
+#: single-ad_listing.php:89
+msgid "Item Details:"
+msgstr ""
+
+#: single-ad_listing.php:96
+msgid "This item has been sold"
+msgstr ""
+
+#: single-ad_listing.php:99
+msgid "Sold, pending pick up"
+msgstr ""
+
+#: single-ad_listing.php:104
+msgid "Listed:"
+msgstr ""
+
+#: single-ad_listing.php:106
+msgid "Expires:"
+msgstr ""
+
+#: single-ad_listing.php:111
+msgid "Thought you might like this:"
+msgstr ""
+
+#: single-ad_listing.php:111
+msgid "Email to a friend"
+msgstr ""
+
+#: single-ad_listing.php:122
+msgid "Item listed by:"
+msgstr ""
+
+#: single-ad_listing.php:123
+msgid "on"
+msgstr ""
+
+#: functions.php:348 single-ad_listing.php:80
+msgid "&larr; Go Back"
+msgstr ""
+
+#: single-ad_listing.php:138
+msgid "YouTube Video:"
+msgstr ""
+
+#: single-ad_listing.php:147
+msgid "Vimeo Video:"
+msgstr ""
+
+#: single-ad_listing.php:153
+msgid "Item Description:"
+msgstr ""
+
+#: single-ad_listing.php:215
+msgid "Related Ads"
+msgstr ""
+
+#: single-ad_listing.php:218
+msgid "Some other ads listed under "
+msgstr ""
+
+#: single-ad_listing.php:218
+msgid " that you might be interested in..."
+msgstr ""
+
+#: single-ad_listing.php:220
+msgid "Some other "
+msgstr ""
+
+#: single-ad_listing.php:220
+msgid " ads that you might be interested in..."
+msgstr ""
+
+
+
+#: taxonomy-ad_cat.php:35 taxonomy-ad_tag.php:29
+msgid "%s RSS Feed"
+msgstr ""
+
+#: taxonomy-ad_cat.php:36
+msgid "Total Listings for"
+msgstr ""
+
+#: taxonomy-ad_tag.php:30
+msgid "Listings tagged with"
+msgstr ""
+
+
+
+#: author.php:32
+msgid "About %s"
+msgstr ""
+
+#: author.php:41 sidebar-user.php:55 sidebar-ad.php:99
+msgid "Member Since:"
+msgstr ""
+
+#: author.php:65 author.php:75
+msgid "Listings"
+msgstr ""
+
+#: author.php:75
+msgid "Latest items listed"
+msgstr ""
+
+#: author.php:90
+msgid "Recent blog posts"
+msgstr ""
+
+#: author.php:67 author.php:90
+msgid "Posts"
+msgstr ""
+
+
+
+#: cat-featured.php:46 featured.php:40
+msgid "Featured Listings"
+msgstr ""
+
+
+
+#: functions.php:310
+msgid "Report problem"
+msgstr ""
+
+#: functions.php:348
+msgid "Sorry, there are no other related ads in this category at this time."
+msgstr ""
+
+#: functions.php:325
+msgid "Sorry, no listings were found."
+msgstr ""
+
+#: functions.php:367 functions.php:370
+msgid "Welcome, "
+msgstr ""
+
+#: functions.php:325
+msgid "visitor!"
+msgstr ""
+
+#: functions.php:513
+msgid "Mark Pending"
+msgstr ""
+
+#: functions.php:519
+msgid "Unmark Pending"
+msgstr ""
+
+
+
+#: includes/widgets.php:15
+msgid "Places an ad space in the sidebar for 300x250 ads"
+msgstr ""
+
+#: includes/widgets.php:17
+msgid "CP 300x250 Ads"
+msgstr ""
+
+#: includes/widgets.php:23 includes/widgets.php:78
+msgid "Sponsored Ads"
+msgstr ""
+
+#: includes/widgets.php:82
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:86
+msgid "Ads:"
+msgstr ""
+
+#: includes/widgets.php:88
+msgid "Enter one ad entry per line in the following format:"
+msgstr ""
+
+#: includes/widgets.php:89
+msgid "URL|Image URL|Image Alt Text|rel"
+msgstr ""
+
+#: includes/widgets.php:90
+msgid ""
+"<strong>Note:</strong> You must hit your &quot;enter/return&quot; key after "
+"each ad entry otherwise the ads will not display properly."
+msgstr ""
+
+#: includes/widgets.php:94
+msgid "Open ads in a new window?"
+msgstr ""
+
+
+
+#: nextprev.php:320
+msgid "There are "
+msgstr ""
+
+#: nextprev.php:320
+msgid " ads listed under "
+msgstr ""
+
+#: nextprev.php:322
+msgid "Sorry, there is only "
+msgstr ""
+
+#: nextprev.php:322
+msgid " ad listed under "
+msgstr ""
+
+#: nextprev.php:322
+msgid " at this time."
+msgstr ""
+
+#: nextprev.php:332
+msgid "&larr; PREV AD"
+msgstr ""
+
+#: nextprev.php:339
+msgid "NEXT AD &rarr;"
+msgstr ""
+
+
+
+#: header.php:22
+msgid "RSS Feed"
+msgstr ""
+
+#: header.php:25 author.php:44 sidebar-user.php:78
+msgid "Facebook"
+msgstr ""
+
+#: header.php:29 author.php:43 sidebar-user.php:77
+msgid "Twitter"
+msgstr ""
+
+#: header.php:80
+msgid "Menu "
+msgstr ""
+
+#: header.php:62 header.php:83
+msgid "Post an Ad"
+msgstr ""
+
+
+
+#: includes/sr-views.php:9 tpl-dashboard.php:26
+msgid "Dashboard"
+msgstr ""
+
+#: includes/sr-views.php:57
+msgid "Ad has been marked as pending pick up."
+msgstr ""
+
+#: includes/sr-views.php:63
+msgid "Ad has been unmarked as pending pick up."
+msgstr ""
+
+#: includes/sr-views.php:99
+msgid "Random Ads"
+msgstr ""
+
+#: includes/sr-views.php:101
+msgid "Popular Ads"
+msgstr ""
+
+#: includes/sr-views.php:103
+msgid "Featured Ads"
+msgstr ""
+
+#: includes/sr-views.php:105
+msgid "Latest Ads"
+msgstr ""
+
+
+
+#: includes/sidebar-contact.php:23
+msgid "Your message has been sent!"
+msgstr ""
+
+#: includes/sidebar-contact.php:36
+msgid ""
+"To inquire about this ad listing, complete the form below to send a message "
+"to the ad poster."
+msgstr ""
+
+#: includes/sidebar-contact.php:40
+msgid "Name:"
+msgstr ""
+
+#: includes/sidebar-contact.php:52
+msgid "Subject:"
+msgstr ""
+
+#: includes/sidebar-contact.php:53
+msgid "Re:"
+msgstr ""
+
+#: includes/sidebar-contact.php:58
+msgid "Message:"
+msgstr ""
+
+#: includes/sidebar-contact.php:74
+msgid "Sum of"
+msgstr ""
+
+#: includes/sidebar-contact.php:80
+msgid "Send Inquiry"
+msgstr ""
+
+
+
+#: order-summary.php:27
+msgid "Order Summary"
+msgstr ""
+
+#: order-summary.php:35
+msgid "Thank you!"
+msgstr ""
+
+#: order-summary.php:36
+msgid "Your ad listing has been submitted for review."
+msgstr ""
+
+#: order-summary.php:37
+msgid "You can check the status by viewing your "
+msgstr ""
+
+#: order-summary.php:37
+msgid "dashboard."
+msgstr ""
+
+
+
+#: search.php:11 searchbar.php:27
+msgid "What are you looking for?"
+msgstr ""
+
+#: search.php:11 searchbar.php:27
+msgid "Search Ads"
+msgstr ""
+
+#: search.php:31
+msgid "Search for '%1$s' returned %2$s results"
+msgstr ""
+
+#: sidebar-ad.php:31
+msgid "Map"
+msgstr ""
+
+#: sidebar-ad.php:32
+msgid "Contact"
+msgstr ""
+
+#: sidebar-ad.php:33
+msgid "Poster"
+msgstr ""
+
+#: sidebar-ad.php:69
+msgid "You must be logged in to inquire about this ad."
+msgstr ""
+
+#: sidebar-ad.php:87
+msgid "Information about the ad poster"
+msgstr ""
+
+#: sidebar-ad.php:95
+msgid "Listed by:"
+msgstr ""
+
+#: sidebar-ad.php:113
+msgid "Other items listed by"
+msgstr ""
+
+#: sidebar-ad.php:131
+msgid "No other ads by this poster found."
+msgstr ""
+
+#: sidebar-ad.php:141
+msgid "Latest items listed by"
+msgstr ""
+
+#: sidebar-user.php:22
+msgid "User Options"
+msgstr ""
+
+#: sidebar-user.php:29 functions.php:367
+msgid "My Dashboard"
+msgstr ""
+
+#: sidebar-user.php:30
+msgid "Edit Profile"
+msgstr ""
+
+#: sidebar-user.php:31
+msgid "WordPress Admin"
+msgstr ""
+
+#: sidebar-user.php:33 functions.php:367
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-user.php:49
+msgid "Account Information"
+msgstr ""
+
+#: sidebar-user.php:56
+msgid "Last Login:"
+msgstr ""
+
+#: sidebar-user.php:63
+msgid "Your membership pack '%1$s' expired on %2$s."
+msgstr ""
+
+#: sidebar-user.php:64
+msgid "Renew Your Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:66
+msgid "Membership Pack:"
+msgstr ""
+
+#: sidebar-user.php:67
+msgid "Membership Expires:"
+msgstr ""
+
+#: sidebar-user.php:68
+msgid "Renew or Extend Your Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:70
+msgid "Purchase a Membership Pack"
+msgstr ""
+
+#: sidebar-user.php:94
+msgid "Account Statistics"
+msgstr ""
+
+#: sidebar-user.php:119
+msgid "Live Listings:"
+msgstr ""
+
+#: sidebar-user.php:120
+msgid "Pending Listings:"
+msgstr ""
+
+#: sidebar-user.php:121
+msgid "Offline Listings:"
+msgstr ""
+
+#: sidebar-user.php:122
+msgid "Total Listings:"
+msgstr ""
+
+#: sidebar.php:28
+msgid "Join Now!"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Welcome back,"
+msgstr ""
+
+#: sidebar.php:37
+msgid "You last logged in at:"
+msgstr ""
+
+#: sidebar.php:38
+msgid "Manage your ads or edit your profile from your personalized dashboard."
+msgstr ""
+
+#: sidebar.php:43
+msgid "Manage Ads"
+msgstr ""
+
+#: sidebar.php:89
+msgid "Meta"
+msgstr ""
+
+
+
+#: tpl-ads-home.php:30 tpl-categories.php:26
+msgid "Ad Categories"
+msgstr ""
+
+#: tpl-ads-home.php:50
+msgid "Latest"
+msgstr ""
+
+#: tpl-ads-home.php:51
+msgid "Popular"
+msgstr ""
+
+#: tpl-ads-home.php:52
+msgid "Random"
+msgstr ""
+
+#: tpl-ads-home.php:127
+msgid "View More Ads"
+msgstr ""
+
+#: tpl-ads-home.php:147 tpl-categories.php:53
+msgid "View All"
+msgstr ""
+
+
+
+#: tpl-login.php:33 tpl-registration.php:99
+msgid "Already Registered?"
+msgstr ""
+
+#: tpl-login.php:85 tpl-registration.php:32
+msgid "Not Registered Yet?"
+msgstr ""
+
+#: tpl-login.php:86 tpl-registration.php:33
+#: functions.php:373
+msgid "Register"
+msgstr ""
+
+#: tpl-login.php:88 tpl-registration.php:35
+msgid "Complete the fields below to create your free account. Your login details will be emailed to you for confirmation so make sure to use a valid email address. Once registration is complete, you will be able to submit your ads."
+msgstr ""
+
+#: tpl-login.php:34 tpl-registration.php:100
+#: functions.php:376
+msgid "Login"
+msgstr ""
+
+#: tpl-login.php:41 tpl-login.php:95 tpl-registration.php:42
+#: tpl-registration.php:107
+msgid "Username:"
+msgstr ""
+
+#: tpl-login.php:100 tpl-registration.php:47 includes/sidebar-contact.php:46
+msgid "Email:"
+msgstr ""
+
+#: tpl-login.php:46 tpl-login.php:108 tpl-login.php:121
+#: tpl-registration.php:55 tpl-registration.php:68 tpl-registration.php:135
+msgid "Password:"
+msgstr ""
+
+#: tpl-login.php:114 tpl-registration.php:60
+msgid "Password Again:"
+msgstr ""
+
+#: tpl-login.php:128 tpl-registration.php:75
+msgid "Hide password"
+msgstr ""
+
+#: tpl-login.php:130 tpl-registration.php:77
+msgid "Hide"
+msgstr ""
+
+#: tpl-login.php:139 tpl-registration.php:86
+msgid "Strength indicator"
+msgstr ""
+
+#: tpl-login.php:140 tpl-registration.php:87
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! " ? $ % ^ &amp; )."
+msgstr ""
+
+#: tpl-login.php:149 tpl-registration.php:96
+msgid "Create Account"
+msgstr ""
+
+#: tpl-login.php:160 tpl-registration.php:110
+msgid ""
+"** User registration is currently disabled. Please contact the site "
+"administrator. **"
+msgstr ""
+
+#: tpl-login.php:36 tpl-registration.php:102
+msgid "Please complete the fields below to login to your account."
+msgstr ""
+
+#: tpl-login.php:56 tpl-registration.php:122
+msgid "Remember me"
+msgstr ""
+
+#: tpl-login.php:60 tpl-registration.php:126
+msgid "Login &raquo;"
+msgstr ""
+
+#: tpl-login.php:66 tpl-registration.php:132
+msgid "Password Lost and Found"
+msgstr ""
+
+#: tpl-login.php:66 tpl-registration.php:132
+msgid "Lost your password?"
+msgstr ""
+
+
+
+#: dashboard-ads.php:13
+msgid ""
+"Below you will find a listing of all your classified ads. Click on one of "
+"the options to perform a specific task. If you have any questions, please "
+"contact the site administrator."
+msgstr ""
+
+#: dashboard-ads.php:19
+msgid "Title"
+msgstr ""
+
+#: dashboard-ads.php:21
+msgid "Views"
+msgstr ""
+
+#: dashboard-ads.php:23
+msgid "Status"
+msgstr ""
+
+#: dashboard-ads.php:24
+msgid "Options"
+msgstr ""
+
+#: tpl-dashboard.php:44
+msgid "You currently have no classified ads."
+msgstr ""
+
+
+#: wrapper.php:63
+msgid "Debug Mode On"
+msgstr ""

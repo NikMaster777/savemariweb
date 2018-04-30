@@ -1,0 +1,31 @@
+/*
+    Document   : acf-loop
+    Created on : 10-08-2015
+    Author     : Mohsin Zunzunia
+    Description:
+        Purpose of the Ad Archive page stylesheet follows.
+*/
+
+
+.post-block p.post-custom-meta {
+    border-bottom: 0 none;
+    color: #afafaf;
+    float: right;
+    font-size: 11px;
+    margin: 0;
+    padding: 4px 0;
+    text-shadow: 0 1px 0 #ffffff;
+}
+
+.post-block p.post-meta span.loop_ad_top, 
+.post-block p.post-custom-meta span.loop_ad_bottom {
+	padding-right:5px;
+	display:inline-block;
+}
+
+.post-block p.post-meta span.dashicons-arrow-right-alt2, 
+.post-block p.post-custom-meta span.dashicons-arrow-right-alt2 {
+	font-size:12px; 
+	line-height:16px; 
+	height:auto;
+}
