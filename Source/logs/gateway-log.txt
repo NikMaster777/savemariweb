@@ -1,0 +1,49 @@
+
+1-4-1-1
+--------------------------------------------
+- Standard Paid Advert
+--------------------------------------------
+* Advert ID Checked
+* Invoice ID Checked
+* AdPack ID Checked
+--------------------------------------------
+Advert ID: 4
+--------------------------------------------
+Marked Invoice as PAID
+IPN Success!
+1-5-2-2
+--------------------------------------------
+- Standard Paid Advert
+--------------------------------------------
+* Advert ID Checked
+* Invoice ID Checked
+* AdPack ID Checked
+--------------------------------------------
+Advert ID: 5
+--------------------------------------------
+Marked Invoice as PAID
+IPN Success!
+1-1-1-1
+--------------------------------------------
+- Standard Paid Advert
+--------------------------------------------
+* Advert ID Checked
+* Invoice ID Checked
+* AdPack ID Checked
+--------------------------------------------
+Advert ID: 1
+--------------------------------------------
+Marked Invoice as PAID
+IPN Success!
+1-45076-99-1
+--------------------------------------------
+- Standard Paid Advert
+--------------------------------------------
+* Advert ID Checked
+* Invoice ID Checked
+* AdPack ID Checked
+--------------------------------------------
+Advert ID: 45076
+--------------------------------------------
+Marked Invoice as PAID
+IPN Success!
