@@ -1,0 +1,217 @@
+/* CSS Document */
+
+.label {
+	font-size:14px;	
+}
+
+body {
+	background:url(../images/stores/background-striped.png);
+	font-size:14px !important;
+		
+}.container {
+	max-width:1080px;	
+}.price {
+	font-size:14px;	
+}
+
+/* Top */
+#top {
+	background:white;
+	border-bottom:1px solid #eaeaea;
+}#top ul {
+	list-style-type:none;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+}#top li {
+	display:inline;
+    font-size: 12px;
+}#top li a {
+	color:#000;	
+}
+
+
+
+/* Header */
+#header {
+	background:white;
+	border-bottom:1px solid #eaeaea;
+	padding-top:15px;
+	padding-bottom:15px;
+}#header #header-logo {
+	text-align:left;
+}#header #header-social {
+	text-align:right;	
+}#header #header-social ul {
+	list-style-type:none;
+	padding:0px;
+}#header #header-social li {
+	display:inline;
+}#header #header-social img {
+    opacity: .4;
+    transition: opacity .5s linear;
+}#header #header-description {
+	font-size:12px;	
+	color: #747474;
+	text-align:right;
+}#header #header-brand {
+	text-align:right;	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#header #header-logo {
+		text-align:center;
+		margin-bottom:10px;
+	}#header #header-brand {
+		display:none;
+	}#header #header-social {
+		text-align:center;	
+	}#header #header-description {
+		text-align:center;	
+	}
+}
+
+/* Menu */
+#menu {
+	background:white;
+	padding-right: 0px;
+    padding-left: 0px;	
+}#menu .navbar {
+	margin-bottom:0px;	
+}#menu .navbar-default {
+	border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+	border:none;
+}
+
+/* Homepage */
+#homepage-carousel {
+	padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Content */
+#content {
+	background:#FFF;
+	padding-top:20px;	
+}
+
+/* Footer */
+#footer {
+	background:#282A2B;	
+	color:#FFF;
+	font-size:12px;
+	padding-top:5px;
+}
+
+/* Advert Page */
+#content #main-image {
+	padding:15px;
+	margin-bottom:15px;	
+}#content .seller-information {
+	background-color: #eee;
+	padding: 15px;
+	border-radius: 6px;
+	margin-bottom:15px;
+}#content .seller-information .spacer {
+	float:left;
+	border-top:1px dotted #CCC;
+	width:100%;
+	height:1px;
+	margin-bottom:10px;
+}#content .seller-information h4 {
+	margin-top:0px;	
+}#content .seller-information p {
+	margin:0 0 5px;	
+	font-size:12px;
+}#content .list-group-item {
+    position: relative;
+    display: block;
+    padding: 5px 5px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+	font-size:12px;
+}#content .jumbotron {
+	padding:15px;	
+}#content .table {
+	margin-bottom:0px;	
+}#content .table>tbody>tr>td {
+	font-size:12px;	
+}#content .advert-html p {
+	color:#666 !important;	
+}#content #main-image ul {
+	list-style-type:none;	
+	padding:0px;
+}
+
+/* Click and Collect */
+#content  .scrolling-images .jcarousel-wrapper {
+    position: relative;
+    max-width: 100%; 
+    height: 100px;
+	margin-top:15px;
+}
+#content .scrolling-images .jcarousel {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+#content .scrolling-images .jcarousel ul {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#content .scrolling-images .jcarousel li {
+	float: left;
+	margin: 5px;
+	max-height:100px;	
+	max-width: 100px;
+	overflow:none;
+}
+#content .scrolling-images .jcarousel img {
+	max-width: 100px;
+	border: 1px solid #eaeaea;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}#content .scrolling-images .jcarousel-control-prev, #content .jcarousel-control-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #4E443C;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 0 4px #F0EFE7;
+	-moz-box-shadow: 0 0 4px #F0EFE7;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+#content .scrolling-images .jcarousel-control-prev {
+	left: 15px;
+}
+#content .scrolling-images .jcarousel-control-next {
+	right: 15px;
+}
+
+/* content Image / Bottom Scrolling Images */
+#content .scrolling-images li {
+	max-height:100px;
+	overflow:none;
+	max-width:100px;
+}

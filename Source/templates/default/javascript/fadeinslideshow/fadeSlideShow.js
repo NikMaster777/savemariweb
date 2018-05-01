@@ -1,0 +1,22 @@
+jQuery.fn.fadeSlideShow=function(options){return this.each(function(){settings=jQuery.extend({width:640,height:480,speed:'slow',interval:3000,Active:'fssActive',PlayPauseElement:'fssPlayPause',PlayText:'Play',PauseText:'Pause',NextElement:'fssNext',NextElementText:'Next >',PrevElement:'fssPrev',PrevElementText:'< Prev',ListElement:'fssList',ListLi:'fssLi',ListLiActive:'fssActive',addListToId:!1,allowKeyboardCtrl:!0,autoplay:!0,beforeSlide:function(){},afterSlide:function(){}},options);jQuery(this).css({width:settings.width,height:settings.height,position:'relative',overflow:'hidden'});jQuery('> *',this).css({position:'absolute',width:settings.width,height:settings.height});var Slides=jQuery('> *',this).length;Slides=Slides-1;var ActSlide=Slides;var jQslide=jQuery('> *',this);var fssThis=this;var intval=!1;jQslide.removeClass(settings.Active);jQslide.eq(ActSlide).addClass(settings.Active);var autoplay=function(){intval=setInterval(function(){settings.beforeSlide();jQslide.eq(ActSlide).fadeOut(settings.speed);if(settings.ListElement){var setActLi=(Slides-ActSlide)+1;if(setActLi>Slides){setActLi=0}
+jQuery('#'+settings.ListElement+' li').removeClass(settings.ListLiActive);jQuery('#'+settings.ListElement+' li').eq(setActLi).addClass(settings.ListLiActive)}
+if(ActSlide<=0){jQslide.fadeIn(settings.speed);ActSlide=Slides}else{ActSlide=ActSlide-1}
+jQslide.removeClass(settings.Active);jQslide.eq(ActSlide).addClass(settings.Active);settings.afterSlide()},settings.interval);if(settings.PlayPauseElement){jQuery('#'+settings.PlayPauseElement).html(settings.PauseText)}};var stopAutoplay=function(){clearInterval(intval);intval=!1;if(settings.PlayPauseElement){jQuery('#'+settings.PlayPauseElement).html(settings.PlayText)}};var jumpTo=function(newIndex){if(newIndex<0){newIndex=Slides}
+else if(newIndex>Slides){newIndex=0}
+settings.beforeSlide();if(newIndex>=ActSlide){jQuery('> *:lt('+(newIndex+1)+')',fssThis).fadeIn(settings.speed)}else if(newIndex<=ActSlide){jQuery('> *:gt('+newIndex+')',fssThis).fadeOut(settings.speed)}
+ActSlide=newIndex;jQslide.removeClass(settings.Active);jQslide.eq(ActSlide).addClass(settings.Active);if(settings.ListElement){jQuery('#'+settings.ListElement+' li').removeClass(settings.ListLiActive);jQuery('#'+settings.ListElement+' li').eq((Slides-newIndex)).addClass(settings.ListLiActive)}
+settings.afterSlide()};if(settings.ListElement){var i=0;var li='';while(i<=Slides){if(i==0){li=li+'<li class="'+settings.ListLi+i+' '+settings.ListLiActive+'"><a href="#">'+(i+1)+'<\/a><\/li>'}else{li=li+'<li class="'+settings.ListLi+i+'"><a href="#">'+(i+1)+'<\/a><\/li>'}
+i++}
+var List='<ul id="'+settings.ListElement+'">'+li+'<\/ul>';if(settings.addListToId){jQuery('#'+settings.addListToId).append(List)}else{jQuery(this).after(List)}
+jQuery('#'+settings.ListElement+' a').bind('click',function(){var index=jQuery('#'+settings.ListElement+' a').index(this);stopAutoplay();var ReverseIndex=Slides-index;jumpTo(ReverseIndex);return!1})}
+if(settings.PlayPauseElement){if(!jQuery('#'+settings.PlayPauseElement).css('display')){jQuery(this).after('<a href="#" id="'+settings.PlayPauseElement+'"><\/a>')}
+if(settings.autoplay){jQuery('#'+settings.PlayPauseElement).html(settings.PauseText)}else{jQuery('#'+settings.PlayPauseElement).html(settings.PlayText)}
+jQuery('#'+settings.PlayPauseElement).bind('click',function(){if(intval){stopAutoplay()}else{autoplay()}
+return!1})}
+if(settings.NextElement){if(!jQuery('#'+settings.NextElement).css('display')){jQuery(this).after('<a href="#" id="'+settings.NextElement+'">'+settings.NextElementText+'<\/a>')}
+jQuery('#'+settings.NextElement).bind('click',function(){nextSlide=ActSlide-1;stopAutoplay();jumpTo(nextSlide);return!1})}
+if(settings.PrevElement){if(!jQuery('#'+settings.PrevElement).css('display')){jQuery(this).after('<a href="#" id="'+settings.PrevElement+'">'+settings.PrevElementText+'<\/a>')}
+jQuery('#'+settings.PrevElement).bind('click',function(){prevSlide=ActSlide+1;stopAutoplay();jumpTo(prevSlide);return!1})}
+if(settings.allowKeyboardCtrl){jQuery(document).bind('keydown',function(e){if(e.which==39){var nextSlide=ActSlide-1;stopAutoplay();jumpTo(nextSlide)}else if(e.which==37){var prevSlide=ActSlide+1;stopAutoplay();jumpTo(prevSlide)}else if(e.which==32){if(intval){stopAutoplay()}
+else{autoplay()}}})}
+if(settings.autoplay){autoplay()}else{intval=!1}})}
